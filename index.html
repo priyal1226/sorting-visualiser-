@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>sort-visualizer</title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <div>
+            <section style="margin-top: 2vw;"><p class="head"><b>Comparison- <b id="comp"></b></b></p> 
+            <p class="head"><b>Swap- <b id="swap"></b></b></p>
+            </section>
+            <section class="data-container"></section>
+            <section>
+                <button class="button1" onclick="generate()" id="button1">Generate Array</button>
+                <button class="button4" onclick="reset()" id="button4">Reset</button>
+            </section>
+            <section class="sort">
+                <br><br>
+                <button class="button2" onclick="selectionsort(),dis()" id="button2">Selection Sort</button>
+                <br><br>
+                <button class="button3" onclick="bubblesort(),dis()" id="button3">Bubble Sort</button>
+                <br><br>
+                <button class="button5" onclick="insertionsort(),dis()" id="button5">Insertion Sort</button>
+            </section>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
